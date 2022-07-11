@@ -1,0 +1,38 @@
+.heading {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+
+  padding: 6rem;
+  color: blanchedalmond;
+  font-size: 3rem;
+}
+
+.closing-heading {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  padding: 0;
+  padding-top: 150px;
+  font-size: 7rem;
+  font-weight: bolder;
+  color: blanchedalmond;
+  padding-bottom: 7rem;
+}
+
+.description {
+  background: linear-gradient(-45deg, #5e5c5cde, #302f2fe7, #0e0d0cf5, #000000);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding-bottom: 20px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,171 @@
+.headline-name {
+  font-family: "Pacifico", cursive;
+  color: #1c2157;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.subline-name {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #242323;
+  padding-top: 0.2rem;
+  padding-right: 1rem;
+  padding-left: 0rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.sub-img {
+  width: 1.7rem;
+}
+
+.header {
+  background-color: rgb(214, 214, 214);
+  padding-bottom: 3rem;
+  margin: 0rem;
+  top: 0rem;
+  display: block;
+  height: 6rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 5px 5px rgb(0, 0, 0);
+  z-index: 50;
+}
+
+.buttons {
+  display: inline;
+  float: right;
+  text-decoration: none;
+  margin: 0;
+  margin-right: 0.2rem;
+  padding: 0;
+  padding-right: 3rem;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.each-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+.nav-bars {
+  font-size: 2rem;
+  color: #1c2157;
+  float: right;
+  line-height: 6.7rem;
+  margin-right: 2.4rem;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 63rem) {
+  h1.headline-name {
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  h4.subline-name {
+    font-size: 1rem;
+  }
+  img.sub-img {
+    width: 1rem;
+  }
+
+  .header-button {
+    font-size: 0.8rem;
+  }
+  .each-button {
+    margin-top: 1.2rem;
+  }
+}
+
+@media (max-width: 52rem) {
+  .nav-bars {
+    display: block;
+  }
+  nav {
+    display: block;
+  }
+  ul {
+    position: absolute;
+    width: 100%;
+    height: 28rem;
+    top: 6rem;
+    left: -100%;
+    text-align: center;
+    background: linear-gradient(rgb(214, 214, 214), rgba(214, 214, 214, 0.678));
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 0 5px 5px rgb(0, 0, 0);
+  }
+  .each-button {
+    display: block;
+    margin: 3rem 0;
+    line-height: 2rem;
+  }
+  .header-button {
+    font-size: 6rem;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-button {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #242323;
+  cursor: pointer;
+  display: inline;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: normal;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.header-button:disabled {
+  pointer-events: none;
+}
+
+.header-button:hover {
+  color: #fff;
+  background-color: #1c2157;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.header-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

@@ -1,0 +1,81 @@
+.content {
+  margin: 0;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  background-color: rgb(8, 8, 8);
+}
+
+.carousel-react {
+  margin-top: 0.2rem;
+  background-color: rgb(214, 214, 214);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.testimonial-text {
+  padding-bottom: 1.5rem;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#testimonials {
+  padding: 7% 8%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  height: 40rem;
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
+
+.animated {
+  min-height: 50%;
+  margin-top: 1rem;
+  background-image: url(../../Assets/pic1.png);
+  background-size: 100%;
+  animation: change 60s infinite ease-in-out;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 5rem;
+  padding-top: 30rem;
+  padding-bottom: 15rem;
+  text-align: center;
+  font-weight: 600;
+  color: rgba(74, 109, 226, 0);
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@keyframes change {
+  10% {
+    background-image: url(../../Assets/pic2.png);
+  }
+  25% {
+    background-image: url(../../Assets/pic3.png);
+  }
+  35% {
+    background-image: url(../../Assets/pic4.png);
+  }
+  45% {
+    background-image: url(../../Assets/pic5.png);
+  }
+  55% {
+    background-image: url(../../Assets/pic6.png);
+  }
+  65% {
+    background-image: url(../../Assets/pic7.png);
+  }
+  75% {
+    background-image: url(../../Assets/pic8.png);
+  }
+  90% {
+    background-image: url(../../Assets/pic1.png);
+  }
+}

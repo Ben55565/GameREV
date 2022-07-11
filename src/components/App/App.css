@@ -1,0 +1,9 @@
+html {
+  min-height: 100%;
+  background-color: rgb(8, 8, 8);
+  position: relative;
+}
+
+body {
+  padding-top: 4rem;
+}

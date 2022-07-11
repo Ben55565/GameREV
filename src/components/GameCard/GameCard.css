@@ -1,0 +1,29 @@
+.game {
+  background: #dadadaec;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 400px;
+  margin: 16px;
+  float: left;
+  text-align: center;
+}
+.game h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.game p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Nunito", sans-serif;
+}
+
+.game img {
+  border-radius: 8%;
+  width: 150px;
+  padding-bottom: 1rem;
+  padding-top: 0.2rem;
+}
