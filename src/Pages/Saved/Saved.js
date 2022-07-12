@@ -16,18 +16,23 @@ function createCard(game) {
 }
 
 function Saved() {
-  const { SavedList, setSavedList } = useContext(SavedContext);
-  const [isEmpty, setIsEmpty] = useState(true);
-  console.log(SavedList);
-  if (SavedList === undefined) {
-    // problem, check why i cant get the size
-    setIsEmpty(true);
-  } else {
-    setIsEmpty(false);
-  }
+  // const { SavedList, setSavedList } = useContext(SavedContext);
+  // const [isEmpty, setIsEmpty] = useState(true);
+  // console.log(SavedList);
+  // if (SavedList === undefined) {
+
+  //   setIsEmpty(true);
+  // } else {
+  //   setIsEmpty(false);
+  // }
   return (
     <div>
-      {isEmpty ? (
+      <h1 className="empty">
+        List is empty
+        <br />
+        Nothing has been added!
+      </h1>
+      {/* {isEmpty ? (
         <h1 className="empty">
           List is empty
           <br />
@@ -35,7 +40,7 @@ function Saved() {
         </h1>
       ) : (
         <div className="cards">{SavedList.map(createCard)}</div>
-      )}
+      )} */}
     </div>
   );
 }

@@ -1,0 +1,90 @@
+.cards {
+  padding-top: 10rem;
+  padding-left: 2rem;
+  padding-right: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 450px);
+}
+.search-bar {
+  padding-top: 15rem;
+  text-align: center;
+
+  background-color: rgba(8, 8, 8, 0.952);
+  padding-bottom: 15rem;
+  box-shadow: 0 5px 5px 5px #000649;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  padding-left: 0;
+
+  color: aliceblue;
+  font-size: 1.5rem;
+
+  padding-right: 20px;
+}
+
+#console {
+  width: 200px;
+  margin-top: 5rem;
+  float: left;
+  margin-left: 2%;
+  display: inline;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+#label-filter {
+  float: left;
+  margin-top: 5rem;
+  margin-left: 20%;
+  padding-right: 0;
+  margin-right: 0;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+#sorter {
+  width: 200px;
+  margin-top: 5rem;
+  float: left;
+  margin-left: 2%;
+  display: inline;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+#label-sorter {
+  float: left;
+  margin-top: 5rem;
+  margin-left: 25%;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+#search {
+  text-align: center;
+
+  padding-left: 20px;
+  width: 25rem;
+  height: 2.7rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: rgb(68, 67, 67);
+  border-radius: 100px;
+  box-shadow: 2px 1px 10px 3px rgb(221, 221, 221);
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#search::placeholder {
+  text-align: center;
+  color: #e2e2e2;
+}
+
+.search-page {
+  text-align: center;
+  padding-bottom: 10rem;
+  background-color: rgb(214, 214, 214);
+}

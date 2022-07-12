@@ -44,7 +44,12 @@ function About() {
       />
 
       <h1 className="closing-heading">THE POWER OF GAMING</h1>
-      {/* <div className="animated"></div> */}
+      <section id="press">
+        <img class="publishers ltt" src="/Assets/ltt.png" alt="ltt-logo" />
+        <img class="publishers" src="/Assets/ign.png" alt="ign-logo" />
+        <img class="publishers" src="/Assets/gi.png" alt="gi-logo" />
+        <img class="publishers" src="Assets/gr.png" alt="gr-logo" />
+      </section>
     </div>
   );
 }

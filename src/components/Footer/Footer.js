@@ -45,13 +45,13 @@ function Footer() {
 
           <span className="icons">
             <a href="https://www.facebook.com/get.out.from.my.page">
-              <i class="fa-brands fa-facebook icon"></i>
+              <i className="fa-brands fa-facebook icon"></i>
             </a>
             <a href="https://github.com/Ben55565">
-              <i class="fa-brands fa-github icon"></i>
+              <i className="fa-brands fa-github icon"></i>
             </a>
             <a href="mailto:cisbhtkx@gmail.com">
-              <i class="fa-solid fa-at icon"></i>
+              <i className="fa-solid fa-at icon"></i>
             </a>
           </span>
         </div>

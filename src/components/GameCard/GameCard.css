@@ -1,16 +1,24 @@
 .game {
-  background: #dadadaec;
+  background: #a5a4a4ec;
   border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0 2px 5px 2px rgb(0, 0, 0);
   padding: 10px;
   width: 400px;
-  margin: 16px;
+  height: 550px;
+  margin: 30px;
   float: left;
   text-align: center;
 }
+
+.game:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
 .game h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
+  height: 3.5rem;
   font-family: "Kdam Thmor Pro", sans-serif;
 }
 .game p {
@@ -21,9 +29,65 @@
   font-family: "Nunito", sans-serif;
 }
 
+.console {
+  height: 2rem;
+}
+
 .game img {
   border-radius: 8%;
   width: 150px;
   padding-bottom: 1rem;
   padding-top: 0.2rem;
+}
+
+.add-game-search {
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-top: 4.5rem;
+}
+
+.add-game-search:hover,
+.add-game-search:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.add-game-search:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.add-game-search:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
 }

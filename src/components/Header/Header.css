@@ -57,7 +57,7 @@
   font-size: 2rem;
   color: #1c2157;
   float: right;
-  line-height: 6.7rem;
+  line-height: 5.5rem;
   margin-right: 2.4rem;
   cursor: pointer;
   display: none;
@@ -71,7 +71,7 @@
   h1.headline-name {
     font-size: 2rem;
     padding-left: 1rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
   }
   h4.subline-name {
     font-size: 1rem;

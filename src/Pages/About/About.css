@@ -3,26 +3,50 @@
   font-family: "Pacifico", cursive;
 
   padding: 6rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   color: blanchedalmond;
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .closing-heading {
   text-align: center;
   font-family: "Pacifico", cursive;
   padding: 0;
-  padding-top: 150px;
-  font-size: 7rem;
+  padding-top: 15rem;
+  font-size: 6rem;
   font-weight: bolder;
-  color: blanchedalmond;
+  color: #3c4394;
   padding-bottom: 7rem;
 }
 
 .description {
-  background: linear-gradient(-45deg, #5e5c5cde, #302f2fe7, #0e0d0cf5, #000000);
+  background: linear-gradient(
+    -45deg,
+    rgb(214, 214, 214),
+    #181717,
+    #302f2fe7,
+    #5e5c5cde
+  );
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   padding-bottom: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+  text-align: center;
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+.publishers {
+  width: 20%;
+  margin-right: 7rem;
+}
+.ltt {
+  width: 10%;
+  margin-left: 7rem;
 }
 
 @keyframes gradient {
