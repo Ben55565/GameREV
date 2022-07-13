@@ -8,11 +8,17 @@
   margin: 30px;
   float: left;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .game:hover {
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
+}
+
+.game:hover .game-hover {
+  transform: translateY(0%);
 }
 
 .game h1 {
@@ -21,7 +27,7 @@
   height: 3.5rem;
   font-family: "Kdam Thmor Pro", sans-serif;
 }
-.game p {
+.game-basics {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
@@ -35,7 +41,7 @@
 
 .game img {
   border-radius: 8%;
-  width: 150px;
+  width: 200px;
   padding-bottom: 1rem;
   padding-top: 0.2rem;
 }
@@ -72,7 +78,8 @@
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
-  margin-top: 4.5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .add-game-search:hover,
@@ -90,4 +97,31 @@
   cursor: not-allowed;
   background: rgba(0, 0, 0, 0.08);
   color: rgba(0, 0, 0, 0.3);
+}
+
+.game-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000649ec;
+  transform: translateY(100%);
+  transition: transform 0.2s ease-in-out;
+}
+
+.game-sum {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 28px;
+  color: rgb(213, 221, 228);
+  font-weight: 600;
+}
+
+.sum-header {
+  color: rgb(244, 246, 247);
+  padding-top: 10px;
+  letter-spacing: 1px;
 }

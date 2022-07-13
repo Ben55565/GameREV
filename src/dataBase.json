@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Tears To Tiara II: Heir Of The Overlord",
-      "releaseDate": "October 31st, 2013 (9 years ago)",
+      "releaseDate": "October 31st, 2013",
       "rating": "100 / 100",
       "console": "PlayStation 3",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2fae.jpg",
@@ -12,7 +12,7 @@
     {
       "id": "2",
       "name": "Grand Theft Auto V: Special Edition",
-      "releaseDate": "September 17th, 2013 (9 years ago)",
+      "releaseDate": "September 17th, 2013",
       "rating": "100 / 100",
       "console": "Xbox 360 / PlayStation 3",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2nbc.jpg",
@@ -21,7 +21,7 @@
     {
       "id": "3",
       "name": "Metal Gear Solid: The Legacy Collection",
-      "releaseDate": "July 9th, 2013 (9 years ago)",
+      "releaseDate": "July 9th, 2013",
       "rating": "100 / 100",
       "console": "PlayStation 3",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co45jf.jpg",
@@ -30,7 +30,7 @@
     {
       "id": "4",
       "name": "Gwent: Iron Judgment",
-      "releaseDate": "October 2nd, 2019 (3 years ago)",
+      "releaseDate": "October 2nd, 2019",
       "rating": "100 / 100",
       "console": "Xbox One",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1r5n.jpg",
@@ -39,7 +39,7 @@
     {
       "id": "5",
       "name": "Final Fantasy XIV: Complete Edition",
-      "releaseDate": "June 20th, 2017 (5 years ago)",
+      "releaseDate": "June 20th, 2017",
       "rating": "99 / 100",
       "console": "PC (Microsoft Windows) / PlayStation 4",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1nuq.jpg",
@@ -48,7 +48,7 @@
     {
       "id": "6",
       "name": "Hitman: Game of the Year Edition",
-      "releaseDate": "November 7th, 2017 (5 years ago)",
+      "releaseDate": "November 7th, 2017",
       "rating": "99 / 100",
       "console": "PC (Microsoft Windows) / Xbox One / PlayStation 4 / Mac / Linux",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co24wx.jpg",
@@ -57,7 +57,7 @@
     {
       "id": "7",
       "name": "The Witcher 3: Wild Hunt - Game of the Year Edition",
-      "releaseDate": "August 30th, 2016 (6 years ago)",
+      "releaseDate": "August 30th, 2016",
       "rating": "99 / 100",
       "console": "PC (Microsoft Windows) / Xbox One / PlayStation 4",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1wz4.jpg",
@@ -66,7 +66,7 @@
     {
       "id": "8",
       "name": "The Elder Scrolls IV: Oblivion - Game of the Year Edition Deluxe",
-      "releaseDate": "June 16th, 2009 (13 years ago)",
+      "releaseDate": "June 16th, 2009",
       "rating": "96 / 100",
       "console": "PC (Microsoft Windows)",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1q3d.jpg",
@@ -75,7 +75,7 @@
     {
       "id": "9",
       "name": "Elden Ring",
-      "releaseDate": "February 25th, 2022 (4 months ago)",
+      "releaseDate": "February 25th, 2022",
       "rating": "96 / 100",
       "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4jni.jpg",
@@ -84,7 +84,7 @@
     {
       "id": "10",
       "name": "Ghost of Tsushima: Director's Cut",
-      "releaseDate": "August 20th, 2021 (10 months ago)",
+      "releaseDate": "August 20th, 2021",
       "rating": "96 / 100",
       "console": "PlayStation 4 / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3p5f.jpg",
@@ -93,7 +93,7 @@
     {
       "id": "11",
       "name": "Streets of Rage Remake",
-      "releaseDate": "April 21st, 2011 (11 years ago)",
+      "releaseDate": "April 21st, 2011",
       "rating": "100 / 100",
       "console": "PC (Microsoft Windows)",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2srh.jpg",
@@ -102,7 +102,7 @@
     {
       "id": "12",
       "name": "NBA Live 07",
-      "releaseDate": "September 25th, 2006 (16 years ago)",
+      "releaseDate": "September 25th, 2006",
       "rating": "100 / 100",
       "console": "PlayStation 2 / Xbox 360 / PlayStation Portable / Legacy Mobile Device / PC (Microsoft Windows) / Xbox",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2gnc.jpg",
@@ -110,8 +110,8 @@
     },
     {
       "id": "13",
-      "name": "Death Stranding: Director’s Cut",
-      "releaseDate": "September 24th, 2021 (9 months ago)",
+      "name": "Death Stranding: Director's Cut",
+      "releaseDate": "September 24th, 2021",
       "rating": "90 / 100",
       "console": "PC (Microsoft Windows) / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4rjc.jpg",
@@ -120,7 +120,7 @@
     {
       "id": "14",
       "name": "It Takes Two",
-      "releaseDate": "March 25th, 2021 (a year ago)",
+      "releaseDate": "March 25th, 2021",
       "rating": "90 / 100",
       "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2t97.jpg",
@@ -129,7 +129,7 @@
     {
       "id": "15",
       "name": "Super Mario 3D World + Bowser's Fury",
-      "releaseDate": "February 12th, 2021 (a year ago)",
+      "releaseDate": "February 12th, 2021",
       "rating": "89 / 100",
       "console": "Nintendo Switch",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2uo9.jpg",
@@ -138,7 +138,7 @@
     {
       "id": "16",
       "name": "Sniper Elite 5",
-      "releaseDate": "May 26, 2022 (24 days ago)",
+      "releaseDate": "May 26, 2022",
       "rating": "81 / 100",
       "console": "Xbox One, PlayStation 4, PlayStation 5, PC (Microsoft Windows), Xbox Series X|S",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.png",
@@ -147,7 +147,7 @@
     {
       "id": "17",
       "name": "Ratchet & Clank: Rift Apart",
-      "releaseDate": "June 11th, 2021 (a year ago)",
+      "releaseDate": "June 11th, 2021",
       "rating": "89 / 100",
       "console": "PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2str.jpg",
@@ -156,16 +156,16 @@
     {
       "id": "18",
       "name": "Lost Judgment",
-      "releaseDate": "September 24th, 2021 (9 months ago)",
+      "releaseDate": "September 24th, 2021",
       "rating": "87 / 100",
       "console": "Xbox Series X|S / Xbox One / PlayStation 4 / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2zmj.jpg",
-      "summery": "Lost Judgment[a] is an action-adventure video game developed by Ryu Ga Gotoku Studio and published by Sega. It was released globally on September 24, 2021. A sequel to the 2018 game Judgment (a spin-off of the Yakuza series), the game focuses on private detective Takayuki Yagami as he investigates a criminal accused of both sexual harassment and murder.[1] Alongside several of his friends, Yagami manages to see the links between the suspect Akihiro Ehara and his links with a series of murders committed against bullies in Kamurochō and Isezaki Ijincho. The game builds on the action sequences from the first game while revising its stealth elements. Yagami uses two returning fighting styles plus the new aikido-based Snake."
+      "summery": "Alongside several of his friends, Yagami manages to see the links between the suspect Akihiro Ehara and his links with a series of murders committed against bullies in Kamurochō and Isezaki Ijincho. The game builds on the action sequences from the first game while revising its stealth elements. Yagami uses two returning fighting styles plus the new aikido-based Snake."
     },
     {
       "id": "19",
       "name": "Forza Horizon 5",
-      "releaseDate": "November 9th, 2021 (7 months ago)",
+      "releaseDate": "November 9th, 2021",
       "rating": "86 / 100",
       "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3ofx.jpg",
@@ -174,7 +174,7 @@
     {
       "id": "20",
       "name": "Returnal",
-      "releaseDate": "April 30th, 2021 (a year ago)",
+      "releaseDate": "April 30th, 2021",
       "rating": "86 / 100",
       "console": "PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3wc1.jpg",
@@ -183,7 +183,7 @@
     {
       "id": "21",
       "name": "Halo Infinite",
-      "releaseDate": "November 15th, 2021 (7 months ago)",
+      "releaseDate": "November 15th, 2021",
       "rating": "86 / 100",
       "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2dto.jpg",
@@ -192,7 +192,7 @@
     {
       "id": "22",
       "name": "DEATHLOOP",
-      "releaseDate": "September 13th, 2021 (9 months ago)",
+      "releaseDate": "September 13th, 2021",
       "rating": "86 / 100",
       "console": "PC (Microsoft Windows) / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4nzt.jpg",
@@ -201,7 +201,7 @@
     {
       "id": "23",
       "name": "Resident Evil Village",
-      "releaseDate": "May 7th, 2021 (a year ago)",
+      "releaseDate": "May 7th, 2021",
       "rating": "84 / 100",
       "console": "Google Stadia / Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation VR2 / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2zpu.jpg",
@@ -210,7 +210,7 @@
     {
       "id": "24",
       "name": "Little Nightmares II",
-      "releaseDate": "February 11th, 2021 (a year ago)",
+      "releaseDate": "February 11th, 2021",
       "rating": "83 / 100",
       "console": "Google Stadia / Xbox Series X|S / PC (Microsoft Windows) / Nintendo Switch / Xbox One / PlayStation 4 / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1p7d.jpg",
@@ -219,7 +219,7 @@
     {
       "id": "25",
       "name": "Marvel's Guardians of the Galaxy",
-      "releaseDate": "October 26th, 2021 (8 months ago)",
+      "releaseDate": "October 26th, 2021",
       "rating": "82 / 100",
       "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co39pu.jpg",
@@ -228,34 +228,34 @@
     {
       "id": "26",
       "name": "God of War",
-      "releaseDate": "April 20th, 2018 (4 years ago)",
+      "releaseDate": "April 20th, 2018",
       "rating": "94 / 100",
       "console": "PC (Microsoft Windows) / PlayStation 4",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1tmu.jpg",
-      "summery": "Unlike previous games, which were loosely based on Greek mythology, this installment is loosely inspired by Norse mythology, with the majority of it set in ancient Scandinavia in the realm of Midgard. For the first time in the series, there are two protagonists: Kratos, the former Greek God of War who remains the only playable character, and his young son, Atreus. Following the death of Kratos' second wife, Atreus' mother, they journey to fulfill her request that her ashes be spread at the highest peak of the nine realms. Kratos keeps his troubled past a secret from Atreus, who is unaware of his divine nature. Along their journey, they come into conflict with monsters and gods of the Norse world."
+      "summery": "Following the death of Kratos' second wife, Atreus' mother, they journey to fulfill her request that her ashes be spread at the highest peak of the nine realms. Kratos keeps his troubled past a secret from Atreus, who is unaware of his divine nature. Along their journey, they come into conflict with monsters and gods of the Norse world."
     },
     {
       "id": "27",
       "name": "Hades",
-      "releaseDate": "September 17th, 2020 (2 years ago)",
+      "releaseDate": "September 17th, 2020",
       "rating": "93 / 100",
       "console": "Xbox Series X|S / PC (Microsoft Windows) / Nintendo Switch / Xbox One / PlayStation 4 / Mac / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co39vc.jpg",
-      "summery": "Players control Zagreus, the son of Hades, as he attempts to escape from the Underworld to reach Mount Olympus, at times aided by gifts bestowed on him from the other Olympians. Each run challenges the player through a random series of rooms populated with enemies and rewards. The game has a hack and slash combat system; the player uses a combination of their main weapon attack, a special attack, a dash ability, and a magic ability to defeat them while avoiding damage to progress as far as possible. While Zagreus will often die, the player can use gained treasure to improve certain attributes or unlock new weapons and abilities to improve chances of escaping on subsequent runs."
+      "summery": "Players control Zagreus, the son of Hades, as he attempts to escape from the Underworld to reach Mount Olympus, at times aided by gifts bestowed on him from the other Olympians. Each run challenges the player through a random series of rooms populated with enemies and rewards."
     },
     {
       "id": "28",
       "name": "Red Dead Redemption 2",
-      "releaseDate": "October 26th, 2018 (4 years ago)",
+      "releaseDate": "October 26th, 2018",
       "rating": "92 / 100",
       "console": "Google Stadia / PC (Microsoft Windows) / Xbox One / PlayStation 4",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1q1f.jpg",
-      "summery": "Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. The story is set in 1899 and follows the exploits of outlaw Arthur Morgan, a member of the Van der Linde gang, in a fictionalized representation of the Western, Midwestern, and Southern United States. Arthur must deal with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other adversaries."
+      "summery": "action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. The story is set in 1899 and follows the exploits of outlaw Arthur Morgan, a member of the Van der Linde gang, in a fictionalized representation of the Western, Midwestern, and Southern United States. Arthur must deal with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other adversaries."
     },
     {
       "id": "29",
       "name": "The Last of Us Part II",
-      "releaseDate": "June 19th, 2020 (2 years ago)",
+      "releaseDate": "June 19th, 2020",
       "rating": "92 / 100",
       "console": "PlayStation 4 / PlayStation 5",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1r0o.jpg",
@@ -264,7 +264,7 @@
     {
       "id": "30",
       "name": "Sekiro: Shadows Die Twice",
-      "releaseDate": "March 22nd, 2019 (3 years ago)",
+      "releaseDate": "March 22nd, 2019",
       "rating": "91 / 100",
       "console": "Google Stadia / PC (Microsoft Windows) / Xbox One / PlayStation 4",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2a23.jpg",
@@ -273,7 +273,7 @@
     {
       "id": "31",
       "name": "Resident Evil 7: Biohazard - Gold Edition",
-      "releaseDate": "December 12th, 2017 (5 years ago)",
+      "releaseDate": "December 12th, 2017",
       "rating": "93 / 100",
       "console": "Xbox One / PlayStation 4",
       "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co24p1.jpg",
