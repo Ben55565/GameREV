@@ -8,6 +8,7 @@ let gamesArr = database.games;
 function createCard(game) {
   return (
     <GameCard
+      id={game.id}
       key={game.id}
       title={game.name}
       image={game.coverPhoto}
@@ -25,7 +26,6 @@ function Search() {
   const gamesToShow = (input) => {
     if (input === "") {
       setGamesShow(gamesArr);
-      document.getElementById("search").value = "";
     } else {
       setGamesShow(
         gamesArr.filter((game) =>
@@ -35,18 +35,15 @@ function Search() {
     }
   };
 
-  // const consoleToShow = (value) => {
-  //   if (value === "all") {
-  //     setGamesShow(gamesArr);
-  //     document.getElementById("search").value = "";
-  //   } else {
-  //     setGamesShow(
-  //       gamesArr.filter((game) =>
-  //         game.conole.toLowerCase().includes(value.toLowerCase())
-  //       )
-  //     );
-  //   }
-  // };
+  const consoleToShow = (value) => {
+    if (value === "all") {
+      setGamesShow(gamesArr);
+    } else {
+      setGamesShow(
+        gamesArr.filter((game) => game.console.toLowerCase().includes(value))
+      );
+    }
+  };
   return (
     <div className="search-page">
       <div className="search-bar">
@@ -54,17 +51,24 @@ function Search() {
           type="search"
           id="search"
           placeholder="Search Game.."
+          onFocus={() => {
+            document.getElementById("search").value = "";
+          }}
           onChange={(e) => {
             setInput(e.target.value);
           }}
           onKeyDown={(e) => {
-            if (e.key === "Enter") gamesToShow(input);
+            if (e.key === "Enter") {
+              gamesToShow(input);
+              document.getElementById("search").blur();
+            }
           }}
         />
         <button
           className="search-button"
           onClick={() => {
             gamesToShow(input);
+            document.getElementById("search").blur();
           }}
         >
           <i className="bi bi-search"></i>
@@ -74,28 +78,20 @@ function Search() {
           className="clear-button"
           onClick={() => {
             gamesToShow("");
+            document.getElementById("search").value = "";
           }}
         >
           Clear
         </button>
         <div className="filter-and-sort">
           <h3 id="label-filter">Filter by:</h3>
-          <select id="console">
+          <select id="console" onChange={(e) => consoleToShow(e.target.value)}>
             <option value="all">Show all</option>
             <option value="playstation">Playstation</option>
             <option value="xbox">Xbox</option>
             <option value="nintendo">Nintendo</option>
-            <option value="windows">Windows</option>
+            <option value="windows">Windows / PC</option>
           </select>
-          {/*<label for="sorter" id="label-sorter">
-            Sort by:
-          </label>
-          <select id="sorter">
-            <option value="none">Hot</option>
-            <option value="release">Release date</option>
-            <option value="rating">Rating</option>
-          </select>
-         */}
         </div>
       </div>
       <div className="center-area">
@@ -113,16 +109,3 @@ function Search() {
 }
 
 export default Search;
-
-// {
-//   gamesShow
-//     .filter((game) => {
-//       if (input === "") {
-//         return game;
-//       } else if (game.name.toLowerCase().includes(input.toLowerCase())) {
-//         return game;
-//       }
-//       return null;
-//     })
-//     .map(createCard);
-// }

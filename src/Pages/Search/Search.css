@@ -45,24 +45,6 @@
   font-size: 1.5rem;
 }
 
-#sorter {
-  width: 200px;
-  margin-top: 5rem;
-  float: left;
-  margin-left: 2%;
-  display: inline;
-  border-radius: 100px;
-  padding: 5px;
-}
-
-#label-sorter {
-  float: left;
-  margin-top: 5rem;
-  margin-left: 25%;
-  color: aliceblue;
-  font-weight: 600;
-}
-
 #search {
   text-align: center;
   position: absolute;
@@ -78,6 +60,10 @@
   box-shadow: 2px 1px 10px 3px rgb(221, 221, 221);
   font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#search::-webkit-search-cancel-button {
+  display: none;
 }
 
 #search::placeholder {

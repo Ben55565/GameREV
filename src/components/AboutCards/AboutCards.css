@@ -44,3 +44,43 @@
 .item {
   margin-bottom: 200px;
 }
+@media (max-width: 63rem) {
+  .img-right {
+    width: 150px;
+    height: 150px;
+  }
+  .img-left {
+    width: 150px;
+    height: 150px;
+  }
+  .details-right {
+    font-size: 15px;
+    width: 40%;
+  }
+  .details-left {
+    font-size: 15px;
+    width: 40%;
+  }
+}
+@media (max-width: 52rem) {
+  .img-right {
+    width: 80px;
+    height: 80px;
+  }
+  .img-left {
+    width: 80px;
+    height: 80px;
+  }
+  .details-right {
+    font-size: 12px;
+    width: 80%;
+    font-weight: 200;
+    padding-bottom: 1rem;
+  }
+  .details-left {
+    font-size: 12px;
+    width: 80%;
+    font-weight: 200;
+    padding-bottom: 1rem;
+  }
+}

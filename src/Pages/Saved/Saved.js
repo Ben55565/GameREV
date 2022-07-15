@@ -1,46 +1,43 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import "./Saved.css";
 import SavedContext from "../../SavedContext";
 import GameCard from "../../components/GameCard/GameCard";
 function createCard(game) {
   return (
     <GameCard
+      id={game.id}
       key={game.id}
-      title={game.name}
-      image={game.coverPhoto}
-      rate={game.rating}
-      release={game.releaseDate}
+      title={game.title}
+      image={game.image}
+      rate={game.rate}
+      release={game.release}
       console={game.console}
+      summery={game.summery}
     />
   );
 }
 
 function Saved() {
-  // const { SavedList, setSavedList } = useContext(SavedContext);
-  // const [isEmpty, setIsEmpty] = useState(true);
-  // console.log(SavedList);
-  // if (SavedList === undefined) {
+  const { SavedList, setSavedList } = useContext(SavedContext);
 
-  //   setIsEmpty(true);
-  // } else {
-  //   setIsEmpty(false);
-  // }
+  let isEmpty = true;
+  if (SavedList.length > 0) {
+    isEmpty = false;
+  } else {
+    isEmpty = true;
+  }
+
   return (
-    <div>
-      <h1 className="empty">
-        List is empty
-        <br />
-        Nothing has been added!
-      </h1>
-      {/* {isEmpty ? (
+    <div className="saved-content">
+      {isEmpty ? (
         <h1 className="empty">
           List is empty
           <br />
           Nothing has been added!
         </h1>
       ) : (
-        <div className="cards">{SavedList.map(createCard)}</div>
-      )} */}
+        <div className="saved-cards">{SavedList.map(createCard)}</div>
+      )}
     </div>
   );
 }

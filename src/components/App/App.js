@@ -13,7 +13,6 @@ import About from "../../Pages/About/About";
 
 function App() {
   const [SavedList, setSavedList] = useState([]);
-  console.log(SavedList);
   return (
     <div className="App">
       <Header />
@@ -43,7 +42,7 @@ function App() {
           <Route
             path="/Saved"
             element={
-              <SavedContext.Provider value={SavedList}>
+              <SavedContext.Provider value={{ SavedList }}>
                 <Saved />
               </SavedContext.Provider>
             }

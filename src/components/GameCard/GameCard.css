@@ -125,3 +125,16 @@
   padding-top: 10px;
   letter-spacing: 1px;
 }
+
+.search-bookmark {
+  color: green;
+  font-size: 2rem;
+}
+
+.remove-from-saved {
+  background-color: transparent;
+  margin-top: 3rem;
+  height: 50px;
+  margin-bottom: 2rem;
+  border-style: none;
+}

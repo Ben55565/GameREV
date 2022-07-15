@@ -5,7 +5,19 @@ import Carousel from "react-elastic-carousel";
 import GameCardHome from "../../components/GameCardHome/GameCardHome";
 
 function createCard(game) {
-  return <GameCardHome key={game.id} Game={game} className="game-show" />;
+  return (
+    <GameCardHome
+      id={game.id}
+      key={game.id}
+      title={game.name}
+      image={game.coverPhoto}
+      rate={game.rating}
+      release={game.releaseDate}
+      console={game.console}
+      summery={game.summery}
+      className="game-show"
+    />
+  );
 }
 
 let gamesToShow = [];
@@ -24,7 +36,9 @@ while (i < 9) {
 function Home() {
   return (
     <div className="content">
-      <div className="animated">GAME SAVING ASSISTANCE(easter egg)</div>
+      <video autoPlay muted loop id="myVideo">
+        <source src="./Assets/back.mp4" type="video/mp4"></source>
+      </video>
       <Carousel
         itemsToShow={3}
         disableArrowsOnEnd={false}

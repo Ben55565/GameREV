@@ -5,7 +5,7 @@
   padding-left: 2rem;
   padding-right: 1rem;
   display: inline-block;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 .subline-name {
@@ -29,7 +29,7 @@
   margin: 0rem;
   top: 0rem;
   display: block;
-  height: 6rem;
+  height: 8rem;
   width: 100%;
   position: fixed;
   top: 0;
@@ -69,7 +69,7 @@
 
 @media (max-width: 63rem) {
   h1.headline-name {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-left: 1rem;
     padding-top: 1.5rem;
   }
@@ -84,13 +84,14 @@
     font-size: 0.8rem;
   }
   .each-button {
-    margin-top: 1.2rem;
+    margin-top: 1.8rem;
   }
 }
 
 @media (max-width: 52rem) {
   .nav-bars {
     display: block;
+    padding-top: 0.5rem;
   }
   nav {
     display: block;

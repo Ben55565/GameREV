@@ -60,3 +60,74 @@
     background-position: 0% 50%;
   }
 }
+
+.animated {
+  margin-top: 1rem;
+  background-image: url(../../Assets/pic1.png);
+  background-size: 50%;
+  animation: change 60s infinite ease-in-out;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+  text-align: center;
+  font-weight: 600;
+  color: rgba(11, 35, 112, 0);
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+@keyframes change {
+  10% {
+    background-image: url(../../Assets/pic2.png);
+  }
+  25% {
+    background-image: url(../../Assets/pic3.png);
+  }
+  35% {
+    background-image: url(../../Assets/pic4.png);
+  }
+  45% {
+    background-image: url(../../Assets/pic5.png);
+  }
+  55% {
+    background-image: url(../../Assets/pic6.png);
+  }
+  65% {
+    background-image: url(../../Assets/pic7.png);
+  }
+  75% {
+    background-image: url(../../Assets/pic8.png);
+  }
+  90% {
+    background-image: url(../../Assets/pic1.png);
+  }
+}
+
+@media (max-width: 63rem) {
+  .animated {
+    margin-top: 0.2rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+  }
+  .closing-heading {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 52rem) {
+  .animated {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .closing-heading {
+    font-size: 2rem;
+  }
+  .publishers {
+    width: 15%;
+    margin-right: 2rem;
+  }
+  .ltt {
+    width: 10%;
+    margin-left: 2rem;
+  }
+}

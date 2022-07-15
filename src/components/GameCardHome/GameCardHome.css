@@ -4,7 +4,7 @@
   box-shadow: 0 2px 5px 2px rgb(0, 0, 0);
   padding: 10px;
   width: 320px;
-  height: 360px;
+  height: 380px;
   margin: 30px;
   float: left;
   text-align: center;
@@ -23,7 +23,7 @@
 
 .game-home img {
   border-radius: 8%;
-  width: 150px;
+  width: 160px;
   padding-bottom: 1rem;
   padding-top: 0.2rem;
 }
@@ -77,4 +77,53 @@
   cursor: not-allowed;
   background: rgba(0, 0, 0, 0.08);
   color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 73rem) {
+  .game-home h1 {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 60rem) {
+  .game-home {
+    height: 250px;
+  }
+  .game-home img {
+    width: 80px;
+  }
+  .game-home h1 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .add-game-home {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 55rem) {
+  .game-home {
+    height: 230px;
+  }
+  .game-home img {
+    width: 80px;
+    padding-bottom: 0rem;
+  }
+  .game-home h1 {
+    font-size: 0;
+    margin-bottom: 0rem;
+  }
+  .add-game-home {
+    font-size: 0.5rem;
+    width: 5rem;
+  }
+}
+
+.home-bookmark {
+  color: green;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+.remove-from-saved-home {
+  background-color: transparent;
+  border-style: none;
 }
