@@ -51,6 +51,7 @@ function GameCard(props) {
           }}
         >
           <i className="fa-solid fa-bookmark search-bookmark"></i>
+          <h3 className="click-unsave">Remove</h3>
         </button>
       </div>
     </div>

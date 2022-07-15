@@ -37,14 +37,13 @@ function GameCardHome(props) {
       </button>
       <button
         className="remove-from-saved-home"
+        hidden={!savedGameDisabled}
         onClick={() => {
           gameToRemove();
         }}
       >
-        <i
-          className="fa-solid fa-bookmark home-bookmark"
-          hidden={!savedGameDisabled}
-        ></i>
+        <i className="fa-solid fa-bookmark home-bookmark"></i>
+        <h3 className="click-unsave-home">Remove</h3>
       </button>
     </div>
   );

@@ -20,15 +20,18 @@ function createCard(game) {
 function Saved() {
   const { SavedList, setSavedList } = useContext(SavedContext);
 
+  let bgColor = "black";
   let isEmpty = true;
   if (SavedList.length > 0) {
     isEmpty = false;
+    bgColor = "almond";
   } else {
     isEmpty = true;
+    bgColor = "black";
   }
 
   return (
-    <div className="saved-content">
+    <div className="saved-content" id={bgColor}>
       {isEmpty ? (
         <h1 className="empty">
           List is empty

@@ -101,7 +101,7 @@
 }
 @media (max-width: 55rem) {
   .game-home {
-    height: 230px;
+    height: 250px;
   }
   .game-home img {
     width: 80px;
@@ -120,10 +120,14 @@
 .home-bookmark {
   color: green;
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   margin-top: 0;
 }
 .remove-from-saved-home {
   background-color: transparent;
   border-style: none;
+}
+.click-unsave-home {
+  color: green;
+  font-size: 1rem;
 }

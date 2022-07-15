@@ -138,3 +138,7 @@
   margin-bottom: 2rem;
   border-style: none;
 }
+.click-unsave {
+  color: green;
+  font-size: 1rem;
+}

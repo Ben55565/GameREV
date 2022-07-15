@@ -4,7 +4,6 @@
   color: aliceblue;
   padding-top: 8rem;
   font-family: "Kdam Thmor Pro", sans-serif;
-  background-color: rgb(8, 8, 8);
 }
 
 .saved-cards {
@@ -18,6 +17,12 @@
 }
 .saved-content {
   padding-top: 4.2rem;
-  background-color: rgb(8, 8, 8);
+
   padding-bottom: 15rem;
+}
+#black {
+  background-color: rgb(8, 8, 8);
+}
+#almond {
+  background-color: blanchedalmond;
 }
