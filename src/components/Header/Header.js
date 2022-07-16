@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <nav className="header">

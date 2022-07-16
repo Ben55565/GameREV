@@ -79,14 +79,33 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
+.home-bookmark {
+  color: green;
+  font-size: 2rem;
+  margin-bottom: 0rem;
+  margin-top: 0;
+}
+.remove-from-saved-home {
+  background-color: transparent;
+  border-style: none;
+}
+.click-unsave-home {
+  color: green;
+  font-size: 1rem;
+}
+
 @media (max-width: 73rem) {
   .game-home h1 {
     margin-bottom: 1rem;
   }
+
+  .home-bookmark {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 60rem) {
   .game-home {
-    height: 250px;
+    height: 260px;
   }
   .game-home img {
     width: 80px;
@@ -115,19 +134,4 @@
     font-size: 0.5rem;
     width: 5rem;
   }
-}
-
-.home-bookmark {
-  color: green;
-  font-size: 2rem;
-  margin-bottom: 0rem;
-  margin-top: 0;
-}
-.remove-from-saved-home {
-  background-color: transparent;
-  border-style: none;
-}
-.click-unsave-home {
-  color: green;
-  font-size: 1rem;
 }

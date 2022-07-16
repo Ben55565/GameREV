@@ -39,7 +39,10 @@ function Saved() {
           Nothing has been added!
         </h1>
       ) : (
-        <div className="saved-cards">{SavedList.map(createCard)}</div>
+        <>
+          <h1 className="filled">You have Saved {SavedList.length} games!</h1>
+          <div className="saved-cards">{SavedList.map(createCard)}</div>
+        </>
       )}
     </div>
   );

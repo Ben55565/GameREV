@@ -6,6 +6,14 @@
   font-family: "Kdam Thmor Pro", sans-serif;
 }
 
+.filled {
+  text-align: center;
+  letter-spacing: 2px;
+  color: rgb(8, 8, 8);
+  padding-top: 8rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
 .saved-cards {
   padding-top: 10rem;
   padding-left: 2rem;

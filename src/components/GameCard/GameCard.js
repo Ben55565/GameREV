@@ -9,21 +9,6 @@ function GameCard(props) {
 
   const savedGameDisabled = storedGame ? true : false;
 
-  const gameToRemove = () => {
-    let index = -1;
-    for (let i = 0; i < SavedList.length; i++) {
-      if (SavedList[i].title === props.title) {
-        index = i;
-        break;
-      }
-    }
-    setSavedList(
-      SavedList.splice(0, index).concat(
-        SavedList.splice(index, SavedList.length - 1)
-      )
-    );
-  };
-
   return (
     <div className="game">
       <img src={props.image} alt=""></img>
@@ -47,7 +32,7 @@ function GameCard(props) {
           className="remove-from-saved"
           hidden={!savedGameDisabled}
           onClick={() => {
-            gameToRemove();
+            setSavedList(SavedList.filter((g) => g.id !== props.id));
           }}
         >
           <i className="fa-solid fa-bookmark search-bookmark"></i>

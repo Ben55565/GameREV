@@ -42,7 +42,9 @@ function App() {
           <Route
             path="/Saved"
             element={
-              <SavedContext.Provider value={{ SavedList }}>
+              <SavedContext.Provider
+                value={{ SavedList: SavedList, setSavedList }}
+              >
                 <Saved />
               </SavedContext.Provider>
             }
