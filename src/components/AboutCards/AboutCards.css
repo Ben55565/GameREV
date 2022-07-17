@@ -32,6 +32,7 @@
   float: right;
   margin-right: 25%;
   color: aliceblue;
+  margin-bottom: 5rem;
 }
 
 .img-left {
@@ -66,21 +67,21 @@
   .img-right {
     width: 80px;
     height: 80px;
+    margin-right: 10%;
   }
   .img-left {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+    margin-left: 5%;
   }
   .details-right {
     font-size: 12px;
-    width: 80%;
+    width: 50%;
     font-weight: 200;
-    padding-bottom: 1rem;
   }
   .details-left {
     font-size: 12px;
-    width: 80%;
+    width: 50%;
     font-weight: 200;
-    padding-bottom: 1rem;
   }
 }

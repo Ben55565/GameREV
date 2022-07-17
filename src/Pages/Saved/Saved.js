@@ -18,7 +18,7 @@ function createCard(game) {
 }
 
 function Saved() {
-  const { SavedList, setSavedList } = useContext(SavedContext);
+  const { SavedList } = useContext(SavedContext);
 
   let bgColor = "black";
   let isEmpty = true;
@@ -40,7 +40,7 @@ function Saved() {
         </h1>
       ) : (
         <>
-          <h1 className="filled">You have Saved {SavedList.length} games!</h1>
+          <h1 className="filled">You have {SavedList.length} Saved games!</h1>
           <div className="saved-cards">{SavedList.map(createCard)}</div>
         </>
       )}

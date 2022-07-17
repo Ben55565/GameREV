@@ -122,6 +122,12 @@
   #check:checked ~ ul {
     left: 0;
   }
+  .added-counter {
+    padding-right: 18rem;
+  }
+  .size-of-saved {
+    padding-right: 18rem;
+  }
 }
 
 .link {
@@ -169,4 +175,26 @@
 .header-button:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+.added-counter {
+  position: absolute;
+  float: right;
+  right: 1.3rem;
+  padding-top: 1.2rem;
+  display: inline;
+  color: rgba(255, 0, 0, 0.753);
+  z-index: 50;
+  font-size: 1.5rem;
+}
+
+.size-of-saved {
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  position: absolute;
+  float: right;
+  right: 1.3rem;
+  color: rgba(255, 0, 0, 0.753);
+  font-weight: 800;
+  z-index: 70;
 }

@@ -86,11 +86,21 @@ function Search() {
         <div className="filter-and-sort">
           <h3 id="label-filter">Filter by:</h3>
           <select id="console" onChange={(e) => consoleToShow(e.target.value)}>
-            <option value="all">Show all</option>
-            <option value="playstation">Playstation</option>
-            <option value="xbox">Xbox</option>
-            <option value="nintendo">Nintendo</option>
-            <option value="windows">Windows / PC</option>
+            <option value="all" className="options">
+              Show all
+            </option>
+            <option value="playstation" className="options">
+              Playstation
+            </option>
+            <option value="xbox" className="options">
+              Xbox
+            </option>
+            <option value="nintendo" className="options">
+              Nintendo
+            </option>
+            <option value="windows" className="options">
+              Windows / PC
+            </option>
           </select>
         </div>
       </div>

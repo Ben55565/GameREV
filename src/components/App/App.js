@@ -15,43 +15,18 @@ function App() {
   const [SavedList, setSavedList] = useState([]);
   return (
     <div className="App">
-      <Header />
-      <div className="center">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <SavedContext.Provider
-                value={{ SavedList: SavedList, setSavedList }}
-              >
-                <Home />
-              </SavedContext.Provider>
-            }
-          />
-          <Route path="/about-us" element={<About />} />
-          <Route
-            path="/Search"
-            element={
-              <SavedContext.Provider
-                value={{ SavedList: SavedList, setSavedList }}
-              >
-                <Search />
-              </SavedContext.Provider>
-            }
-          />
-          <Route
-            path="/Saved"
-            element={
-              <SavedContext.Provider
-                value={{ SavedList: SavedList, setSavedList }}
-              >
-                <Saved />
-              </SavedContext.Provider>
-            }
-          />
-        </Routes>
-      </div>
-      <Footer />
+      <SavedContext.Provider value={{ SavedList: SavedList, setSavedList }}>
+        <Header />
+        <div className="center">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-us" element={<About />} />
+            <Route path="/Search" element={<Search />} />
+            <Route path="/Saved" element={<Saved />} />
+          </Routes>
+        </div>
+        <Footer />
+      </SavedContext.Provider>
     </div>
   );
 }
