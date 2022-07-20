@@ -113,6 +113,9 @@
   .closing-heading {
     font-size: 4rem;
   }
+  .heading {
+    font-size: 3rem;
+  }
 }
 @media (max-width: 52rem) {
   .animated {

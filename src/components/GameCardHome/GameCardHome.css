@@ -46,7 +46,7 @@
   justify-content: center;
   line-height: 20px;
   max-width: 480px;
-  min-height: 40px;
+  min-height: 10px;
   min-width: 0px;
   overflow: hidden;
   padding: 0px;
@@ -60,6 +60,7 @@
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
+  height: 50px;
 }
 
 .add-game-home:hover,
@@ -105,7 +106,7 @@
 }
 @media (max-width: 60rem) {
   .game-home {
-    height: 260px;
+    height: 280px;
   }
   .game-home img {
     width: 80px;
@@ -116,11 +117,14 @@
   }
   .add-game-home {
     font-size: 0.7rem;
+    height: 25px;
+    padding: 0;
+    width: 100px;
   }
 }
 @media (max-width: 55rem) {
   .game-home {
-    height: 250px;
+    height: 220px;
   }
   .game-home img {
     width: 80px;
@@ -133,5 +137,14 @@
   .add-game-home {
     font-size: 0.5rem;
     width: 5rem;
+  }
+}
+
+@media (max-width: 35rem) {
+  .game-home img {
+    width: 60px;
+  }
+  .game-home {
+    height: 200px;
   }
 }

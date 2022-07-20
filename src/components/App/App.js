@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import SavedContext from "../../SavedContext";
 // components imports
@@ -13,9 +13,24 @@ import About from "../../Pages/About/About";
 
 function App() {
   const [SavedList, setSavedList] = useState([]);
+  const [gamesArr, setGamesArr] = useState([]);
+  const fetchData = () => {
+    fetch("http://localhost:8000/")
+      .then((res) => res.json())
+      .then((games) => {
+        setGamesArr(games);
+      });
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div className="App">
-      <SavedContext.Provider value={{ SavedList: SavedList, setSavedList }}>
+      <SavedContext.Provider
+        value={{ SavedList: SavedList, setSavedList, gamesArr: gamesArr }}
+      >
         <Header />
         <div className="center">
           <Routes>

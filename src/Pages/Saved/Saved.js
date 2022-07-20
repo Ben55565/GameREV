@@ -22,6 +22,8 @@ function Saved() {
 
   let bgColor = "black";
   let isEmpty = true;
+
+  // conditional styling based on if the saved games is empty or not
   if (SavedList.length > 0) {
     isEmpty = false;
     bgColor = "almond";

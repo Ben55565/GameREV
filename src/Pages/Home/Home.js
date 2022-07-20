@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Home.css";
 import database from "../../dataBase.json";
 import Carousel from "react-elastic-carousel";
 import GameCardHome from "../../components/GameCardHome/GameCardHome";
+import SavedContext from "../../SavedContext";
 
 function createCard(game) {
   return (
@@ -23,6 +24,7 @@ function createCard(game) {
 let gamesToShow = [];
 let i = 0;
 let temp = 0;
+//return 9 randrom games to show at the home page
 while (i < 9) {
   temp = Math.floor(Math.random() * database.games.length);
   if (gamesToShow.includes(database.games[temp])) {
@@ -34,11 +36,15 @@ while (i < 9) {
 }
 
 function Home() {
+  const { gamesArr } = useContext(SavedContext);
+
   return (
     <div className="content">
       <video autoPlay muted loop id="myVideo">
         <source src="./Assets/back.mp4" type="video/mp4"></source>
       </video>
+
+      {/* react made carousel */}
       <Carousel
         itemsToShow={3}
         disableArrowsOnEnd={false}
@@ -47,6 +53,7 @@ function Home() {
         {gamesToShow.map(createCard)}
       </Carousel>
 
+      {/* bootstrap made carousel */}
       <section id="testimonials">
         <div
           id="testimonials-carousel"

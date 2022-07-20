@@ -23,6 +23,8 @@ function createCard(game) {
 function Search() {
   const [input, setInput] = useState("");
   const [gamesShow, setGamesShow] = useState(gamesArr);
+
+  // function to filter by the user input in the search bar
   const gamesToShow = (input) => {
     if (input === "") {
       setGamesShow(gamesArr);
@@ -34,7 +36,7 @@ function Search() {
       );
     }
   };
-
+  // funtion to filter by game consoles
   const consoleToShow = (value) => {
     if (value === "all") {
       setGamesShow(gamesArr);

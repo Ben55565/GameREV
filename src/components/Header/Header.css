@@ -129,6 +129,11 @@
     padding-right: 18rem;
   }
 }
+@media (max-width: 35rem) {
+  h4.subline-name {
+    padding-left: 3.5rem;
+  }
+}
 
 .link {
   text-decoration: none;

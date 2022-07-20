@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const d = new Date();
 let year = d.getFullYear();
-// THIS IS FOR EMAIL VALIDATION, CURRENTLY THIS IS EXTRA WHEN THERES TIME!!!!!!!
+// THIS IS FOR EMAIL VALIDATION, CURRENTLY THIS IS EXTRA WHEN THERES TIME
 let email = "";
 function setEmail(e) {
   email = e.target.value;
@@ -25,7 +25,7 @@ function Footer() {
           ) : (
             <>
               <h3 className="sign-up">Sign For Updates</h3>
-              <span>
+              <span className="input-section">
                 <input
                   type="text"
                   placeholder="exemple@mail.com"
