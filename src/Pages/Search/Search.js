@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import GameCard from "../../components/GameCard/GameCard";
-import database from "../../dataBase.json";
+// import database from "../../dataBase.json";
 import "./Search.css";
+import SavedContext from "../../SavedContext";
+import Loading from "../../components/Loading/Loading";
 
-let gamesArr = database.games;
+// let gamesArr = database.games;
 
 function createCard(game) {
   return (
@@ -21,6 +23,7 @@ function createCard(game) {
 }
 
 function Search() {
+  const { gamesArr, loading, setLoading } = useContext(SavedContext);
   const [input, setInput] = useState("");
   const [gamesShow, setGamesShow] = useState(gamesArr);
 
@@ -46,6 +49,7 @@ function Search() {
       );
     }
   };
+
   return (
     <div className="search-page">
       <div className="search-bar">
@@ -106,16 +110,20 @@ function Search() {
           </select>
         </div>
       </div>
-      <div className="center-area">
-        {gamesShow.length > 0 ? (
-          <div className="cards">{gamesShow.map(createCard)}</div>
-        ) : (
-          <h1 className="no-games">
-            No game containing that name.
-            <br /> Please try again!
-          </h1>
-        )}
-      </div>
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="center-area">
+          {gamesShow.length > 0 ? (
+            <div className="cards">{gamesShow.map(createCard)}</div>
+          ) : (
+            <h1 className="no-games">
+              No game containing that name.
+              <br /> Please try again!
+            </h1>
+          )}
+        </div>
+      )}
     </div>
   );
 }

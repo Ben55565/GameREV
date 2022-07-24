@@ -14,11 +14,14 @@ import About from "../../Pages/About/About";
 function App() {
   const [SavedList, setSavedList] = useState([]);
   const [gamesArr, setGamesArr] = useState([]);
+  const [loading, setLoading] = useState(true);
+
   const fetchData = () => {
     fetch("http://localhost:8000/")
       .then((res) => res.json())
       .then((games) => {
         setGamesArr(games);
+        setLoading(false);
       });
   };
 
@@ -29,7 +32,13 @@ function App() {
   return (
     <div className="App">
       <SavedContext.Provider
-        value={{ SavedList: SavedList, setSavedList, gamesArr: gamesArr }}
+        value={{
+          SavedList: SavedList,
+          setSavedList,
+          gamesArr: gamesArr,
+          loading: loading,
+          setLoading,
+        }}
       >
         <Header />
         <div className="center">

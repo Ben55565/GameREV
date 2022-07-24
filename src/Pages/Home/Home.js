@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Home.css";
-import database from "../../dataBase.json";
+// import database from "../../dataBase.json";
 import Carousel from "react-elastic-carousel";
 import GameCardHome from "../../components/GameCardHome/GameCardHome";
 import SavedContext from "../../SavedContext";
@@ -21,22 +21,39 @@ function createCard(game) {
   );
 }
 
-let gamesToShow = [];
-let i = 0;
-let temp = 0;
-//return 9 randrom games to show at the home page
-while (i < 9) {
-  temp = Math.floor(Math.random() * database.games.length);
-  if (gamesToShow.includes(database.games[temp])) {
-    continue;
-  } else {
-    gamesToShow[i] = database.games[temp];
-    i++;
-  }
-}
+// let gamesToShow = [];
+// let i = 0;
+// let temp = 0;
+// //return 9 randrom games to show at the home page
+// while (i < 9) {
+//   temp = Math.floor(Math.random() * database.games.length);
+//   if (gamesToShow.includes(database.games[temp])) {
+//     continue;
+//   } else {
+//     gamesToShow[i] = database.games[temp];
+//     i++;
+//   }
+// }
 
 function Home() {
   const { gamesArr } = useContext(SavedContext);
+  const [gamesToShow, setGamesToShow] = useState([]);
+  useEffect(() => {
+    if (gamesArr.length > 0 && gamesToShow.length < 8) {
+      let i = 0;
+      let temp = 0;
+      // return 9 randrom games to show at the home page
+      while (i < 8) {
+        temp = Math.floor(Math.random() * gamesArr.length);
+        if (gamesToShow.find((e) => e.id === gamesArr[temp].id)) {
+          continue;
+        } else {
+          setGamesToShow([...gamesToShow, gamesArr[temp]]);
+          i++;
+        }
+      }
+    }
+  }, [gamesArr, gamesToShow]);
 
   return (
     <div className="content">
