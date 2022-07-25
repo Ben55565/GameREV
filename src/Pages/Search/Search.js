@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import GameCard from "../../components/GameCard/GameCard";
 // import database from "../../dataBase.json";
 import "./Search.css";
@@ -23,10 +23,14 @@ function createCard(game) {
 }
 
 function Search() {
-  const { gamesArr, loading, setLoading } = useContext(SavedContext);
+  const { gamesArr, loading } = useContext(SavedContext);
   const [input, setInput] = useState("");
   const [gamesShow, setGamesShow] = useState(gamesArr);
-
+  useEffect(() => {
+    if (gamesArr.length > 0 && !loading) {
+      setGamesShow(gamesArr);
+    }
+  }, [gamesArr, loading]);
   // function to filter by the user input in the search bar
   const gamesToShow = (input) => {
     if (input === "") {

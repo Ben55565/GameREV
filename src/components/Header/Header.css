@@ -100,7 +100,7 @@
     position: absolute;
     width: 100%;
     height: 28rem;
-    top: 6rem;
+    top: 8rem;
     left: -100%;
     text-align: center;
     background: linear-gradient(rgb(214, 214, 214), rgba(214, 214, 214, 0.678));
@@ -122,11 +122,9 @@
   #check:checked ~ ul {
     left: 0;
   }
-  .added-counter {
-    padding-right: 18rem;
-  }
-  .size-of-saved {
-    padding-right: 18rem;
+  .saved-indicator {
+    position: sticky;
+    left: 1rem;
   }
 }
 @media (max-width: 35rem) {

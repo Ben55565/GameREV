@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState, useRef } from "react";
 import "./Home.css";
 // import database from "../../dataBase.json";
 import Carousel from "react-elastic-carousel";
@@ -38,17 +38,17 @@ function createCard(game) {
 function Home() {
   const { gamesArr } = useContext(SavedContext);
   const [gamesToShow, setGamesToShow] = useState([]);
+  const temp = useRef(0);
   useEffect(() => {
     if (gamesArr.length > 0 && gamesToShow.length < 8) {
       let i = 0;
-      let temp = 0;
       // return 9 randrom games to show at the home page
       while (i < 8) {
-        temp = Math.floor(Math.random() * gamesArr.length);
-        if (gamesToShow.find((e) => e.id === gamesArr[temp].id)) {
+        temp.current = Math.floor(Math.random() * gamesArr.length);
+        if (gamesToShow.find((e) => e.id === gamesArr[temp.current].id)) {
           continue;
         } else {
-          setGamesToShow([...gamesToShow, gamesArr[temp]]);
+          setGamesToShow([...gamesToShow, gamesArr[temp.current]]);
           i++;
         }
       }

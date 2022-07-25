@@ -4,11 +4,11 @@ import "./Footer.css";
 const d = new Date();
 let year = d.getFullYear();
 // THIS IS FOR EMAIL VALIDATION, CURRENTLY THIS IS EXTRA WHEN THERES TIME
-let email = "";
-function setEmail(e) {
-  email = e.target.value;
-  console.log(email);
-}
+// let email = "";
+// function setEmail(e) {
+//   email = e.target.value;
+//   console.log(email);
+// }
 
 function Footer() {
   const [clicked, setClicked] = useState(false);
@@ -30,7 +30,7 @@ function Footer() {
                   type="text"
                   placeholder="exemple@mail.com"
                   className="input"
-                  onChange={(e) => setEmail(e)} // HERE AS WELL, SET EMAIL IS EXTRA
+                  // onChange={(e) => setEmail(e)} // HERE AS WELL, SET EMAIL IS EXTRA
                 ></input>
                 <button
                   type="submit"

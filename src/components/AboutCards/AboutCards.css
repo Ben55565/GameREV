@@ -45,6 +45,9 @@
 .item {
   margin-bottom: 200px;
 }
+
+/* responsive adjastments */
+
 @media (max-width: 63rem) {
   .img-right {
     width: 150px;

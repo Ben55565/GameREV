@@ -37,7 +37,6 @@ function App() {
           setSavedList,
           gamesArr: gamesArr,
           loading: loading,
-          setLoading,
         }}
       >
         <Header />

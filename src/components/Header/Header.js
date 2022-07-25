@@ -7,6 +7,7 @@ function Header() {
   const { SavedList } = useContext(SavedContext);
   let size = SavedList.length;
   let isListEmpty = size === 0;
+
   return (
     <nav className="header">
       <input type="checkbox" id="check" />
@@ -41,13 +42,15 @@ function Header() {
           </Link>
         </li>
         <li className="each-button">
-          <p className="size-of-saved" hidden={isListEmpty}>
-            {size}
-          </p>
-          <i
-            className="fa-solid fa-heart-circle-plus added-counter"
-            hidden={isListEmpty}
-          ></i>
+          <div className="saved-indicator">
+            <p className="size-of-saved" hidden={isListEmpty}>
+              {size}
+            </p>
+            <i
+              className="fa-solid fa-heart-circle-plus added-counter"
+              hidden={isListEmpty}
+            ></i>
+          </div>
           <Link to="/Saved" className="link">
             <button className="header-button">Saved</button>
           </Link>
