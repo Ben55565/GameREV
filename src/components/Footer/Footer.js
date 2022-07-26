@@ -18,31 +18,34 @@ function Footer() {
       <footer>
         <h4 className="footer-year"> © GameRev Ben Daniels {year}</h4>
         <div className="footer-items">
-          {clicked ? (
-            <>
-              <h2 className="registered">Thank You For Joining!</h2>
-            </>
-          ) : (
-            <>
-              <h3 className="sign-up">Sign For Updates</h3>
-              <span className="input-section">
-                <input
-                  type="text"
-                  placeholder="exemple@mail.com"
-                  className="input"
-                  // onChange={(e) => setEmail(e)} // HERE AS WELL, SET EMAIL IS EXTRA
-                ></input>
-                <button
-                  type="submit"
-                  className="submit"
-                  onClick={() => setClicked(true)}
-                >
-                  Submit
-                </button>
-              </span>
-            </>
-          )}
-
+          <div className="sign-up-container">
+            {clicked ? (
+              <>
+                <h2 className="registered">Thank You For Joining!</h2>
+              </>
+            ) : (
+              <>
+                <h3 className="sign-up">Sign For Updates</h3>
+                <span className="input-section">
+                  <input
+                    type="text"
+                    placeholder="exemple@mail.com"
+                    className="input"
+                    // onChange={(e) => setEmail(e)} // HERE AS WELL, SET EMAIL IS EXTRA
+                  ></input>
+                  <span className="test">
+                    <button
+                      type="submit"
+                      className="submit"
+                      onClick={() => setClicked(true)}
+                    >
+                      Submit
+                    </button>
+                  </span>
+                </span>
+              </>
+            )}
+          </div>
           <span className="icons">
             <a href="https://www.facebook.com/get.out.from.my.page">
               <i className="fa-brands fa-facebook icon"></i>
