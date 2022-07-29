@@ -1,283 +1,281 @@
-{
-  "games": [
-    {
-      "id": "1",
-      "name": "Tears To Tiara II: Heir Of The Overlord",
-      "releaseDate": "October 31st, 2013",
-      "rating": "100 / 100",
-      "console": "PlayStation 3",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2fae.jpg",
-      "summery": "Tears to Tiara II: Heir of the Overlord is an intense strategy RPG combined with visual novel-like storytelling from developer Aquaplus. Telling the story of the last heir to Hispania's royal throne as he fights to reclaim his land from the Divine Empire, Tears to Tiara II is a standalone adventure lasting approximately 80 hours that requires no prior knowledge of the previous game."
-    },
-    {
-      "id": "2",
-      "name": "Grand Theft Auto V: Special Edition",
-      "releaseDate": "September 17th, 2013",
-      "rating": "100 / 100",
-      "console": "Xbox 360 / PlayStation 3",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2nbc.jpg",
-      "summery": "When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other."
-    },
-    {
-      "id": "3",
-      "name": "Metal Gear Solid: The Legacy Collection",
-      "releaseDate": "July 9th, 2013",
-      "rating": "100 / 100",
-      "console": "PlayStation 3",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co45jf.jpg",
-      "summery": "Exclusive footage detailing the cultural legacy of the Metal Gear franchise as seen through the eyes of MGSV's main cast, game critics, journalists, and top-tier creators from both the game and film industries."
-    },
-    {
-      "id": "4",
-      "name": "Gwent: Iron Judgment",
-      "releaseDate": "October 2nd, 2019",
-      "rating": "100 / 100",
-      "console": "Xbox One",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1r5n.jpg",
-      "summery": "Join in The Witcher universe’s favorite card game — available for free! Blending the CCG and TCG genres, GWENT sees you clash in fast-paced online PvP duels that combine bluffing, on-the-fly decision making and careful deck construction. Collect and command Geralt, Yennefer and other iconic Witcher-world heroes. Grow your collectible arsenal with spells and special abilities that dramatically turn the tide of battle. Use deception and clever tricks in your strategy to win the fight in classic, seasonal and Arena modes."
-    },
-    {
-      "id": "5",
-      "name": "Final Fantasy XIV: Complete Edition",
-      "releaseDate": "June 20th, 2017",
-      "rating": "99 / 100",
-      "console": "PC (Microsoft Windows) / PlayStation 4",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1nuq.jpg",
-      "summery": "Joined by your closest friends on the roadtrip of a lifetime through a breathtaking open world, witness stunning landscapes and encounter larger-than-life beasts on your journey to reclaim your homeland from an unimaginable foe."
-    },
-    {
-      "id": "6",
-      "name": "Hitman: Game of the Year Edition",
-      "releaseDate": "November 7th, 2017",
-      "rating": "99 / 100",
-      "console": "PC (Microsoft Windows) / Xbox One / PlayStation 4 / Mac / Linux",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co24wx.jpg",
-      "summery": "Experiment and have fun in the ultimate playground as Agent 47 to become the master assassin. Travel around the globe to exotic locations and eliminate your targets with everything from a katana or a sniper rifle to an exploding golf ball or some expired spaghetti sauce."
-    },
-    {
-      "id": "7",
-      "name": "The Witcher 3: Wild Hunt - Game of the Year Edition",
-      "releaseDate": "August 30th, 2016",
-      "rating": "99 / 100",
-      "console": "PC (Microsoft Windows) / Xbox One / PlayStation 4",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1wz4.jpg",
-      "summery": "The Witcher: Wild Hunt is a story-driven open world RPG set in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The Witcher, you play as professional monster hunter Geralt of Rivia tasked with finding a child of prophecy in a vast open world rich with merchant cities, pirate islands, dangerous mountain passes, and forgotten caverns to explore."
-    },
-    {
-      "id": "8",
-      "name": "The Elder Scrolls IV: Oblivion - Game of the Year Edition Deluxe",
-      "releaseDate": "June 16th, 2009",
-      "rating": "96 / 100",
-      "console": "PC (Microsoft Windows)",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1q3d.jpg",
-      "summery": "The Elder Scrolls IV: Oblivion® Game of the Year Edition presents one of the best RPGs of all time like never before. Step inside the most richly detailed and vibrant game-world ever created. With a powerful combination of freeform gameplay and unprecedented graphics, you can unravel the main quest at your own pace or explore the vast world and find your own challenges."
-    },
-    {
-      "id": "9",
-      "name": "Elden Ring",
-      "releaseDate": "February 25th, 2022",
-      "rating": "96 / 100",
-      "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4jni.jpg",
-      "summery": "A vast world where open fields with a variety of situations and huge dungeons with complex and three-dimensional designs are seamlessly connected. As you explore, the joy of discovering unknown and overwhelming threats await you, leading to a high sense of accomplishment."
-    },
-    {
-      "id": "10",
-      "name": "Ghost of Tsushima: Director's Cut",
-      "releaseDate": "August 20th, 2021",
-      "rating": "96 / 100",
-      "console": "PlayStation 4 / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3p5f.jpg",
-      "summery": "Uncover the hidden wonders of Tsushima in this open-world action adventure. Forge a new path and wage an unconventional war for the freedom of Tsushima. Challenge opponents with your katana, master the bow to eliminate distant threats and develop stealth tactics to ambush enemies.  Explore a new story on Iki Island."
-    },
-    {
-      "id": "11",
-      "name": "Streets of Rage Remake",
-      "releaseDate": "April 21st, 2011",
-      "rating": "100 / 100",
-      "console": "PC (Microsoft Windows)",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2srh.jpg",
-      "summery": "You'll go throughout an immense town fighting against people who try to attack you. There are more than 60 different enemies, you can choose among 16 characters, choose your favourite one and kick asses out there."
-    },
-    {
-      "id": "12",
-      "name": "NBA Live 07",
-      "releaseDate": "September 25th, 2006",
-      "rating": "100 / 100",
-      "console": "PlayStation 2 / Xbox 360 / PlayStation Portable / Legacy Mobile Device / PC (Microsoft Windows) / Xbox",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2gnc.jpg",
-      "summery": "NBA Live 07 is the 2006 installment of the NBA Live series by EA Sports."
-    },
-    {
-      "id": "13",
-      "name": "Death Stranding: Director's Cut",
-      "releaseDate": "September 24th, 2021",
-      "rating": "90 / 100",
-      "console": "PC (Microsoft Windows) / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4rjc.jpg",
-      "summery": "In the future, a mysterious event known as the Death Stranding has opened a doorway between the living and the dead, leading to grotesque creatures from the afterlife roaming the fallen world marred by a desolate society."
-    },
-    {
-      "id": "14",
-      "name": "It Takes Two",
-      "releaseDate": "March 25th, 2021",
-      "rating": "90 / 100",
-      "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2t97.jpg",
-      "summery": "Embark on the craziest journey of your life in It Takes Two, a genre-bending platform adventure created purely for co-op. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Play as the clashing couple Cody and May, two humans turned into dolls by a magic spell. Together, trapped in a fantastical world where the unpredictable hides around every corner, they are reluctantly challenged with saving their fractured relationship"
-    },
-    {
-      "id": "15",
-      "name": "Super Mario 3D World + Bowser's Fury",
-      "releaseDate": "February 12th, 2021",
-      "rating": "89 / 100",
-      "console": "Nintendo Switch",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2uo9.jpg",
-      "summery": "Bowser is up to his old tricks again and only Mario and his friends can save the day! Use power-ups like the Super Bell, which grants catlike abilities like climbing and scratching, to overcome Bowser and his minions."
-    },
-    {
-      "id": "16",
-      "name": "Sniper Elite 5",
-      "releaseDate": "May 26, 2022",
-      "rating": "81 / 100",
-      "console": "Xbox One, PlayStation 4, PlayStation 5, PC (Microsoft Windows), Xbox Series X|S",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.png",
-      "summery": "Similar to its predecessors, Sniper Elite 5 is a third-person shooter. Similar to Sniper Elite 4, the game features several large levels, which provide players with various opportunities to infiltrate and extract. When the player kills an enemy using a sniper rifle from a long distance, the X-Ray kill cam system will activate, in which the game's camera follows the bullet from the sniper rifle to the target, and shows body parts, bones or internal body organs being broken or ruptured by the bullet. Weapons in the game can be customized extensively."
-    },
-    {
-      "id": "17",
-      "name": "Ratchet & Clank: Rift Apart",
-      "releaseDate": "June 11th, 2021",
-      "rating": "89 / 100",
-      "console": "PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2str.jpg",
-      "summery": "Ratchet and Clank are back! Help them stop a robotic emperor intent on conquering cross-dimensional worlds, with their own universe next in the firing line. Witness the evolution of the dream team as they’re joined by Rivet – a Lombax resistance fighter from another dimension."
-    },
-    {
-      "id": "18",
-      "name": "Lost Judgment",
-      "releaseDate": "September 24th, 2021",
-      "rating": "87 / 100",
-      "console": "Xbox Series X|S / Xbox One / PlayStation 4 / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2zmj.jpg",
-      "summery": "Alongside several of his friends, Yagami manages to see the links between the suspect Akihiro Ehara and his links with a series of murders committed against bullies in Kamurochō and Isezaki Ijincho. The game builds on the action sequences from the first game while revising its stealth elements. Yagami uses two returning fighting styles plus the new aikido-based Snake."
-    },
-    {
-      "id": "19",
-      "name": "Forza Horizon 5",
-      "releaseDate": "November 9th, 2021",
-      "rating": "86 / 100",
-      "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3ofx.jpg",
-      "summery": "Forza Horizon 5 is a 2021 racing video game developed by Playground Games and published by Xbox Game Studios. It is the fifth Forza Horizon title and twelfth main instalment in the Forza series. The game is set in a fictionalised representation of Mexico."
-    },
-    {
-      "id": "20",
-      "name": "Returnal",
-      "releaseDate": "April 30th, 2021",
-      "rating": "86 / 100",
-      "console": "PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3wc1.jpg",
-      "summery": "The game follows Selene Vassos, an astronaut who lands on the planet Atropos in search of the mysterious White Shadow signal and finds herself trapped in a time loop."
-    },
-    {
-      "id": "21",
-      "name": "Halo Infinite",
-      "releaseDate": "November 15th, 2021",
-      "rating": "86 / 100",
-      "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2dto.jpg",
-      "summery": "The campaign follows the human supersoldier Master Chief and his fight against the enemy Banished on the Forerunner ringworld Zeta Halo, also known as Installation 07. Unlike previous installments in the series, the multiplayer portion of the game is free-to-play."
-    },
-    {
-      "id": "22",
-      "name": "DEATHLOOP",
-      "releaseDate": "September 13th, 2021",
-      "rating": "86 / 100",
-      "console": "PC (Microsoft Windows) / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4nzt.jpg",
-      "summery": "In Deathloop, the player takes on the role of Colt, an assassin stuck in a time loop who has been tasked to take out eight targets called Visionaries across the island before midnight, as leaving even one alive will cause the time loop to reset and undo his work. Further, should Colt die before taking out the eight targets, he will wake back up at the start of the loop."
-    },
-    {
-      "id": "23",
-      "name": "Resident Evil Village",
-      "releaseDate": "May 7th, 2021",
-      "rating": "84 / 100",
-      "console": "Google Stadia / Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation VR2 / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2zpu.jpg",
-      "summery": "It is the sequel to Resident Evil 7: Biohazard (2017). Players control Ethan Winters, who searches for his kidnapped daughter in a village filled with mutant creatures. Village maintains survival horror elements from previous Resident Evil games, with players scavenging environments for items and managing resources. However, it adds more action-oriented gameplay, with higher enemy counts and a greater emphasis on combat."
-    },
-    {
-      "id": "24",
-      "name": "Little Nightmares II",
-      "releaseDate": "February 11th, 2021",
-      "rating": "83 / 100",
-      "console": "Google Stadia / Xbox Series X|S / PC (Microsoft Windows) / Nintendo Switch / Xbox One / PlayStation 4 / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1p7d.jpg",
-      "summery": "ittle Nightmares II is a puzzle-platformer horror adventure game developed by Tarsier Studios, published by Bandai Namco Entertainment. It is the prequel to 2017's Little Nightmares. The story, which precedes the events of the first game, follows Mono, who must work together with Six, the protagonist from the previous game, to survive the horrors of the Pale City and discover its dark secrets."
-    },
-    {
-      "id": "25",
-      "name": "Marvel's Guardians of the Galaxy",
-      "releaseDate": "October 26th, 2021",
-      "rating": "82 / 100",
-      "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co39pu.jpg",
-      "summery": "Marvel's Guardians of the Galaxy is a 2021 action-adventure game developed by Eidos-Montréal and published by Square Enix's European subsidiary. Based on the Marvel Comics superhero team Guardians of the Galaxy."
-    },
-    {
-      "id": "26",
-      "name": "God of War",
-      "releaseDate": "April 20th, 2018",
-      "rating": "94 / 100",
-      "console": "PC (Microsoft Windows) / PlayStation 4",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1tmu.jpg",
-      "summery": "Following the death of Kratos' second wife, Atreus' mother, they journey to fulfill her request that her ashes be spread at the highest peak of the nine realms. Kratos keeps his troubled past a secret from Atreus, who is unaware of his divine nature. Along their journey, they come into conflict with monsters and gods of the Norse world."
-    },
-    {
-      "id": "27",
-      "name": "Hades",
-      "releaseDate": "September 17th, 2020",
-      "rating": "93 / 100",
-      "console": "Xbox Series X|S / PC (Microsoft Windows) / Nintendo Switch / Xbox One / PlayStation 4 / Mac / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co39vc.jpg",
-      "summery": "Players control Zagreus, the son of Hades, as he attempts to escape from the Underworld to reach Mount Olympus, at times aided by gifts bestowed on him from the other Olympians. Each run challenges the player through a random series of rooms populated with enemies and rewards."
-    },
-    {
-      "id": "28",
-      "name": "Red Dead Redemption 2",
-      "releaseDate": "October 26th, 2018",
-      "rating": "92 / 100",
-      "console": "Google Stadia / PC (Microsoft Windows) / Xbox One / PlayStation 4",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1q1f.jpg",
-      "summery": "action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. The story is set in 1899 and follows the exploits of outlaw Arthur Morgan, a member of the Van der Linde gang, in a fictionalized representation of the Western, Midwestern, and Southern United States. Arthur must deal with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other adversaries."
-    },
-    {
-      "id": "29",
-      "name": "The Last of Us Part II",
-      "releaseDate": "June 19th, 2020",
-      "rating": "92 / 100",
-      "console": "PlayStation 4 / PlayStation 5",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1r0o.jpg",
-      "summery": "Set five years after The Last of Us (2013), the game focuses on two playable characters in a post-apocalyptic United States whose lives intertwine: Ellie, who sets out for revenge after suffering a tragedy, and Abby, a soldier who becomes involved in a conflict between her militia and a religious cult. The game is played from a third-person perspective and allows the player to fight human enemies and cannibalistic zombie-like creatures with firearms, improvised weapons, and stealth."
-    },
-    {
-      "id": "30",
-      "name": "Sekiro: Shadows Die Twice",
-      "releaseDate": "March 22nd, 2019",
-      "rating": "91 / 100",
-      "console": "Google Stadia / PC (Microsoft Windows) / Xbox One / PlayStation 4",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2a23.jpg",
-      "summery": "Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord. It was released for Windows, PlayStation 4, and Xbox One in March 2019 and for Stadia in October 2020. Gameplay is focused on stealth, exploration, and combat, with a particular emphasis on boss battles."
-    },
-    {
-      "id": "31",
-      "name": "Resident Evil 7: Biohazard - Gold Edition",
-      "releaseDate": "December 12th, 2017",
-      "rating": "93 / 100",
-      "console": "Xbox One / PlayStation 4",
-      "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co24p1.jpg",
-      "summery": "Resident Evil 7: Biohazard is a 2017 survival horror game developed and published by Capcom. The player controls Ethan Winters as he searches for his long-missing wife in a derelict plantation occupied by an infected family, solving puzzles and fighting enemies."
-    }
-  ]
-}
+[
+  {
+    "id": "1",
+    "name": "Tears To Tiara II: Heir Of The Overlord",
+    "releaseDate": "October 31st, 2013",
+    "rating": "100 / 100",
+    "console": "PlayStation 3",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2fae.jpg",
+    "summery": "Tears to Tiara II: Heir of the Overlord is an intense strategy RPG combined with visual novel-like storytelling from developer Aquaplus. Telling the story of the last heir to Hispania's royal throne as he fights to reclaim his land from the Divine Empire, Tears to Tiara II is a standalone adventure lasting approximately 80 hours that requires no prior knowledge of the previous game."
+  },
+  {
+    "id": "2",
+    "name": "Grand Theft Auto V: Special Edition",
+    "releaseDate": "September 17th, 2013",
+    "rating": "100 / 100",
+    "console": "Xbox 360 / PlayStation 3",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2nbc.jpg",
+    "summery": "When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other."
+  },
+  {
+    "id": "3",
+    "name": "Metal Gear Solid: The Legacy Collection",
+    "releaseDate": "July 9th, 2013",
+    "rating": "100 / 100",
+    "console": "PlayStation 3",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co45jf.jpg",
+    "summery": "Exclusive footage detailing the cultural legacy of the Metal Gear franchise as seen through the eyes of MGSV's main cast, game critics, journalists, and top-tier creators from both the game and film industries."
+  },
+  {
+    "id": "4",
+    "name": "Gwent: Iron Judgment",
+    "releaseDate": "October 2nd, 2019",
+    "rating": "100 / 100",
+    "console": "Xbox One",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1r5n.jpg",
+    "summery": "Join in The Witcher universe’s favorite card game — available for free! Blending the CCG and TCG genres, GWENT sees you clash in fast-paced online PvP duels that combine bluffing, on-the-fly decision making and careful deck construction. Collect and command Geralt, Yennefer and other iconic Witcher-world heroes. Grow your collectible arsenal with spells and special abilities that dramatically turn the tide of battle. Use deception and clever tricks in your strategy to win the fight in classic, seasonal and Arena modes."
+  },
+  {
+    "id": "5",
+    "name": "Final Fantasy XIV: Complete Edition",
+    "releaseDate": "June 20th, 2017",
+    "rating": "99 / 100",
+    "console": "PC (Microsoft Windows) / PlayStation 4",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1nuq.jpg",
+    "summery": "Joined by your closest friends on the roadtrip of a lifetime through a breathtaking open world, witness stunning landscapes and encounter larger-than-life beasts on your journey to reclaim your homeland from an unimaginable foe."
+  },
+  {
+    "id": "6",
+    "name": "Hitman: Game of the Year Edition",
+    "releaseDate": "November 7th, 2017",
+    "rating": "99 / 100",
+    "console": "PC (Microsoft Windows) / Xbox One / PlayStation 4 / Mac / Linux",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co24wx.jpg",
+    "summery": "Experiment and have fun in the ultimate playground as Agent 47 to become the master assassin. Travel around the globe to exotic locations and eliminate your targets with everything from a katana or a sniper rifle to an exploding golf ball or some expired spaghetti sauce."
+  },
+  {
+    "id": "7",
+    "name": "The Witcher 3: Wild Hunt - Game of the Year Edition",
+    "releaseDate": "August 30th, 2016",
+    "rating": "99 / 100",
+    "console": "PC (Microsoft Windows) / Xbox One / PlayStation 4",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1wz4.jpg",
+    "summery": "The Witcher: Wild Hunt is a story-driven open world RPG set in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The Witcher, you play as professional monster hunter Geralt of Rivia tasked with finding a child of prophecy in a vast open world rich with merchant cities, pirate islands, dangerous mountain passes, and forgotten caverns to explore."
+  },
+  {
+    "id": "8",
+    "name": "The Elder Scrolls IV: Oblivion - Game of the Year Edition Deluxe",
+    "releaseDate": "June 16th, 2009",
+    "rating": "96 / 100",
+    "console": "PC (Microsoft Windows)",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1q3d.jpg",
+    "summery": "The Elder Scrolls IV: Oblivion® Game of the Year Edition presents one of the best RPGs of all time like never before. Step inside the most richly detailed and vibrant game-world ever created. With a powerful combination of freeform gameplay and unprecedented graphics, you can unravel the main quest at your own pace or explore the vast world and find your own challenges."
+  },
+  {
+    "id": "9",
+    "name": "Elden Ring",
+    "releaseDate": "February 25th, 2022",
+    "rating": "96 / 100",
+    "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4jni.jpg",
+    "summery": "A vast world where open fields with a variety of situations and huge dungeons with complex and three-dimensional designs are seamlessly connected. As you explore, the joy of discovering unknown and overwhelming threats await you, leading to a high sense of accomplishment."
+  },
+  {
+    "id": "10",
+    "name": "Ghost of Tsushima: Director's Cut",
+    "releaseDate": "August 20th, 2021",
+    "rating": "96 / 100",
+    "console": "PlayStation 4 / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3p5f.jpg",
+    "summery": "Uncover the hidden wonders of Tsushima in this open-world action adventure. Forge a new path and wage an unconventional war for the freedom of Tsushima. Challenge opponents with your katana, master the bow to eliminate distant threats and develop stealth tactics to ambush enemies.  Explore a new story on Iki Island."
+  },
+  {
+    "id": "11",
+    "name": "Streets of Rage Remake",
+    "releaseDate": "April 21st, 2011",
+    "rating": "100 / 100",
+    "console": "PC (Microsoft Windows)",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2srh.jpg",
+    "summery": "You'll go throughout an immense town fighting against people who try to attack you. There are more than 60 different enemies, you can choose among 16 characters, choose your favourite one and kick asses out there."
+  },
+  {
+    "id": "12",
+    "name": "NBA Live 07",
+    "releaseDate": "September 25th, 2006",
+    "rating": "100 / 100",
+    "console": "PlayStation 2 / Xbox 360 / PlayStation Portable / Legacy Mobile Device / PC (Microsoft Windows) / Xbox",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2gnc.jpg",
+    "summery": "NBA Live 07 is the 2006 installment of the NBA Live series by EA Sports."
+  },
+  {
+    "id": "13",
+    "name": "Death Stranding: Director's Cut",
+    "releaseDate": "September 24th, 2021",
+    "rating": "90 / 100",
+    "console": "PC (Microsoft Windows) / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4rjc.jpg",
+    "summery": "In the future, a mysterious event known as the Death Stranding has opened a doorway between the living and the dead, leading to grotesque creatures from the afterlife roaming the fallen world marred by a desolate society."
+  },
+  {
+    "id": "14",
+    "name": "It Takes Two",
+    "releaseDate": "March 25th, 2021",
+    "rating": "90 / 100",
+    "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2t97.jpg",
+    "summery": "Embark on the craziest journey of your life in It Takes Two, a genre-bending platform adventure created purely for co-op. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Play as the clashing couple Cody and May, two humans turned into dolls by a magic spell. Together, trapped in a fantastical world where the unpredictable hides around every corner, they are reluctantly challenged with saving their fractured relationship"
+  },
+  {
+    "id": "15",
+    "name": "Super Mario 3D World + Bowser's Fury",
+    "releaseDate": "February 12th, 2021",
+    "rating": "89 / 100",
+    "console": "Nintendo Switch",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2uo9.jpg",
+    "summery": "Bowser is up to his old tricks again and only Mario and his friends can save the day! Use power-ups like the Super Bell, which grants catlike abilities like climbing and scratching, to overcome Bowser and his minions."
+  },
+  {
+    "id": "16",
+    "name": "Sniper Elite 5",
+    "releaseDate": "May 26, 2022",
+    "rating": "81 / 100",
+    "console": "Xbox One, PlayStation 4, PlayStation 5, PC (Microsoft Windows), Xbox Series X|S",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ehj.png",
+    "summery": "Similar to its predecessors, Sniper Elite 5 is a third-person shooter. Similar to Sniper Elite 4, the game features several large levels, which provide players with various opportunities to infiltrate and extract. When the player kills an enemy using a sniper rifle from a long distance, the X-Ray kill cam system will activate, in which the game's camera follows the bullet from the sniper rifle to the target, and shows body parts, bones or internal body organs being broken or ruptured by the bullet. Weapons in the game can be customized extensively."
+  },
+  {
+    "id": "17",
+    "name": "Ratchet & Clank: Rift Apart",
+    "releaseDate": "June 11th, 2021",
+    "rating": "89 / 100",
+    "console": "PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2str.jpg",
+    "summery": "Ratchet and Clank are back! Help them stop a robotic emperor intent on conquering cross-dimensional worlds, with their own universe next in the firing line. Witness the evolution of the dream team as they’re joined by Rivet – a Lombax resistance fighter from another dimension."
+  },
+  {
+    "id": "18",
+    "name": "Lost Judgment",
+    "releaseDate": "September 24th, 2021",
+    "rating": "87 / 100",
+    "console": "Xbox Series X|S / Xbox One / PlayStation 4 / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2zmj.jpg",
+    "summery": "Alongside several of his friends, Yagami manages to see the links between the suspect Akihiro Ehara and his links with a series of murders committed against bullies in Kamurochō and Isezaki Ijincho. The game builds on the action sequences from the first game while revising its stealth elements. Yagami uses two returning fighting styles plus the new aikido-based Snake."
+  },
+  {
+    "id": "19",
+    "name": "Forza Horizon 5",
+    "releaseDate": "November 9th, 2021",
+    "rating": "86 / 100",
+    "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3ofx.jpg",
+    "summery": "Forza Horizon 5 is a 2021 racing video game developed by Playground Games and published by Xbox Game Studios. It is the fifth Forza Horizon title and twelfth main instalment in the Forza series. The game is set in a fictionalised representation of Mexico."
+  },
+  {
+    "id": "20",
+    "name": "Returnal",
+    "releaseDate": "April 30th, 2021",
+    "rating": "86 / 100",
+    "console": "PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co3wc1.jpg",
+    "summery": "The game follows Selene Vassos, an astronaut who lands on the planet Atropos in search of the mysterious White Shadow signal and finds herself trapped in a time loop."
+  },
+  {
+    "id": "21",
+    "name": "Halo Infinite",
+    "releaseDate": "November 15th, 2021",
+    "rating": "86 / 100",
+    "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2dto.jpg",
+    "summery": "The campaign follows the human supersoldier Master Chief and his fight against the enemy Banished on the Forerunner ringworld Zeta Halo, also known as Installation 07. Unlike previous installments in the series, the multiplayer portion of the game is free-to-play."
+  },
+  {
+    "id": "22",
+    "name": "DEATHLOOP",
+    "releaseDate": "September 13th, 2021",
+    "rating": "86 / 100",
+    "console": "PC (Microsoft Windows) / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co4nzt.jpg",
+    "summery": "In Deathloop, the player takes on the role of Colt, an assassin stuck in a time loop who has been tasked to take out eight targets called Visionaries across the island before midnight, as leaving even one alive will cause the time loop to reset and undo his work. Further, should Colt die before taking out the eight targets, he will wake back up at the start of the loop."
+  },
+  {
+    "id": "23",
+    "name": "Resident Evil Village",
+    "releaseDate": "May 7th, 2021",
+    "rating": "84 / 100",
+    "console": "Google Stadia / Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation VR2 / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2zpu.jpg",
+    "summery": "It is the sequel to Resident Evil 7: Biohazard (2017). Players control Ethan Winters, who searches for his kidnapped daughter in a village filled with mutant creatures. Village maintains survival horror elements from previous Resident Evil games, with players scavenging environments for items and managing resources. However, it adds more action-oriented gameplay, with higher enemy counts and a greater emphasis on combat."
+  },
+  {
+    "id": "24",
+    "name": "Little Nightmares II",
+    "releaseDate": "February 11th, 2021",
+    "rating": "83 / 100",
+    "console": "Google Stadia / Xbox Series X|S / PC (Microsoft Windows) / Nintendo Switch / Xbox One / PlayStation 4 / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1p7d.jpg",
+    "summery": "ittle Nightmares II is a puzzle-platformer horror adventure game developed by Tarsier Studios, published by Bandai Namco Entertainment. It is the prequel to 2017's Little Nightmares. The story, which precedes the events of the first game, follows Mono, who must work together with Six, the protagonist from the previous game, to survive the horrors of the Pale City and discover its dark secrets."
+  },
+  {
+    "id": "25",
+    "name": "Marvel's Guardians of the Galaxy",
+    "releaseDate": "October 26th, 2021",
+    "rating": "82 / 100",
+    "console": "Xbox Series X|S / PC (Microsoft Windows) / Xbox One / PlayStation 4 / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co39pu.jpg",
+    "summery": "Marvel's Guardians of the Galaxy is a 2021 action-adventure game developed by Eidos-Montréal and published by Square Enix's European subsidiary. Based on the Marvel Comics superhero team Guardians of the Galaxy."
+  },
+  {
+    "id": "26",
+    "name": "God of War",
+    "releaseDate": "April 20th, 2018",
+    "rating": "94 / 100",
+    "console": "PC (Microsoft Windows) / PlayStation 4",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1tmu.jpg",
+    "summery": "Following the death of Kratos' second wife, Atreus' mother, they journey to fulfill her request that her ashes be spread at the highest peak of the nine realms. Kratos keeps his troubled past a secret from Atreus, who is unaware of his divine nature. Along their journey, they come into conflict with monsters and gods of the Norse world."
+  },
+  {
+    "id": "27",
+    "name": "Hades",
+    "releaseDate": "September 17th, 2020",
+    "rating": "93 / 100",
+    "console": "Xbox Series X|S / PC (Microsoft Windows) / Nintendo Switch / Xbox One / PlayStation 4 / Mac / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co39vc.jpg",
+    "summery": "Players control Zagreus, the son of Hades, as he attempts to escape from the Underworld to reach Mount Olympus, at times aided by gifts bestowed on him from the other Olympians. Each run challenges the player through a random series of rooms populated with enemies and rewards."
+  },
+  {
+    "id": "28",
+    "name": "Red Dead Redemption 2",
+    "releaseDate": "October 26th, 2018",
+    "rating": "92 / 100",
+    "console": "Google Stadia / PC (Microsoft Windows) / Xbox One / PlayStation 4",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1q1f.jpg",
+    "summery": "action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. The story is set in 1899 and follows the exploits of outlaw Arthur Morgan, a member of the Van der Linde gang, in a fictionalized representation of the Western, Midwestern, and Southern United States. Arthur must deal with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other adversaries."
+  },
+  {
+    "id": "29",
+    "name": "The Last of Us Part II",
+    "releaseDate": "June 19th, 2020",
+    "rating": "92 / 100",
+    "console": "PlayStation 4 / PlayStation 5",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co1r0o.jpg",
+    "summery": "Set five years after The Last of Us (2013), the game focuses on two playable characters in a post-apocalyptic United States whose lives intertwine: Ellie, who sets out for revenge after suffering a tragedy, and Abby, a soldier who becomes involved in a conflict between her militia and a religious cult. The game is played from a third-person perspective and allows the player to fight human enemies and cannibalistic zombie-like creatures with firearms, improvised weapons, and stealth."
+  },
+  {
+    "id": "30",
+    "name": "Sekiro: Shadows Die Twice",
+    "releaseDate": "March 22nd, 2019",
+    "rating": "91 / 100",
+    "console": "Google Stadia / PC (Microsoft Windows) / Xbox One / PlayStation 4",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co2a23.jpg",
+    "summery": "Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord. It was released for Windows, PlayStation 4, and Xbox One in March 2019 and for Stadia in October 2020. Gameplay is focused on stealth, exploration, and combat, with a particular emphasis on boss battles."
+  },
+  {
+    "id": "31",
+    "name": "Resident Evil 7: Biohazard - Gold Edition",
+    "releaseDate": "December 12th, 2017",
+    "rating": "93 / 100",
+    "console": "Xbox One / PlayStation 4",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_med/co24p1.jpg",
+    "summery": "Resident Evil 7: Biohazard is a 2017 survival horror game developed and published by Capcom. The player controls Ethan Winters as he searches for his long-missing wife in a derelict plantation occupied by an infected family, solving puzzles and fighting enemies."
+  }
+]

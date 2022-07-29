@@ -10,23 +10,30 @@ import Home from "../../Pages/Home/Home";
 import Saved from "../../Pages/Saved/Saved";
 import Search from "../../Pages/Search/Search";
 import About from "../../Pages/About/About";
+// dataBase import
+import dataBase from "../../dataBase.json";
 
 function App() {
   const [SavedList, setSavedList] = useState([]);
   const [gamesArr, setGamesArr] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const fetchData = () => {
-    fetch("http://localhost:8000/")
-      .then((res) => res.json())
-      .then((games) => {
-        setGamesArr(games);
-        setLoading(false);
-      });
-  };
+  // fetch funtion for the server call. disabled for heroku upload.
+
+  // const fetchData = () => {
+  //   fetch("http://localhost:8000/")
+  //     .then((res) => res.json())
+  //     .then((games) => {
+  //       setGamesArr(games);
+  //       setLoading(false);
+  //     });
+  // };
 
   useEffect(() => {
-    fetchData();
+    // fetchData();
+    // fetching games directly from the json file. delete this if going back to read from the server.
+    setGamesArr(dataBase);
+    setLoading(false);
   }, []);
 
   return (
