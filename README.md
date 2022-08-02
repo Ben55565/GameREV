@@ -3,7 +3,7 @@
   <h1># GameRev!</h1>
 </div>
 
-<h3 font-weight:"600"> First react app full project</h3>
+<h3 font-weight:900> First react app full project</h3>
 
 <p>
 
