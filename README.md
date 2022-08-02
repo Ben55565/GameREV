@@ -1,6 +1,6 @@
 
 <div id="header" align="center">
-  <h1># GameRev!</h1>
+  <h1>GameRev!</h1>
 </div>
 
 ## First react app full project
@@ -13,18 +13,19 @@
 <h2 align="center">ScreenShots section:</h2>
 
 <p align="center">
-  <img src="pic1.png" width="650" title="photo1">
+  <img src="pic1.png" width="700" title="photo1">
 </p>
 <p align="center">
-  <img src="pic2.png" width="650" title="photo1">
+  <img src="pic2.png" width="700" title="photo1">
 </p>
 <p align="center">
-  <img src="pic3.png" width="650" title="photo1">
+  <img src="pic3.png" width="700" title="photo1">
 </p>
 
 <h2 align="center">Click here for the project!</h2>
+<p align="center">
 <a href="https://gamerev-d87e3.web.app/"><img src="icon.png" width="250" title="icon photo" align = "center"></a>
-
+</p>
 
 ### Thank you for your interest,
 ### Ben Daniels.
