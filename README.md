@@ -1,6 +1,6 @@
 
 <div id="header" align="center">
-  <h1>GameRev!</h1>
+  <h1>GameRev</h1>
 </div>
 
 ## First react app full project
